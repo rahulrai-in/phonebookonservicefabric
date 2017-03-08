@@ -32,9 +32,6 @@
     <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\data\database.js" />
     <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\data\index.js" />
     <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\grunt.js" />
-    <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\launchApp.cmd">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\node.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -294,9 +291,6 @@
     <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\package.json" />
     <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\PhoneBook.njsproj" />
     <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\README.md" />
-    <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\installnode.cmd">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\server.js" />
     <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Code\typings.json" />
     <Content Include="ApplicationPackageRoot\PhoneBookAsGuestPkg\Config\Settings.xml" />
