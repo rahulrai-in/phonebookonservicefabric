@@ -1,0 +1,27 @@
+﻿@html.extend("layout", function(model){
+    @html.block("body", function(model){
+        <h4>
+            @model.title
+			 <hr/>
+         </h4>
+         @if(model.error){
+            <h2>
+                Error: @model.error
+            </h2>
+        }
+		@else{
+		<table>
+		  <tr>
+			<th>Name</th>
+			<th>Contact</th>
+		  </tr>
+				@model.data.forEach(function(person){
+				<tr>
+					<td>
+						@person.PersonName </td>
+					<td>@person.PhoneNumber</td>
+		  </tr>})
+		</table>
+		}
+    })
+})

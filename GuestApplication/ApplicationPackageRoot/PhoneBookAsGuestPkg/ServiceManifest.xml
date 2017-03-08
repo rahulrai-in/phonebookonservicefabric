@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceManifest Name="PhoneBookAsGuestPkg"
+                 Version="1.0.0"
+                 xmlns="http://schemas.microsoft.com/2011/01/fabric"
+                 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ServiceTypes>
+    <StatelessServiceType ServiceTypeName="PhoneBookAsGuestType" UseImplicitHost="true" />
+  </ServiceTypes>
+  <CodePackage Name="Code" Version="1.0.0">
+    <EntryPoint >
+      <ExeHost >
+        <Program >node.exe</Program>
+        <Arguments >server.js</Arguments>
+        <WorkingFolder>CodePackage</WorkingFolder>
+      </ExeHost >
+    </EntryPoint >
+  </CodePackage>
+  <ConfigPackage Name="Config" Version="1.0.0" />
+  <Resources>
+    <Endpoints>
+      <Endpoint Name="External" Port="3000" Protocol="http" Type="Input" UriScheme="http" />
+    </Endpoints>
+  </Resources>
+</ServiceManifest>

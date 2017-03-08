@@ -1,0 +1,17 @@
+{
+  "name": "phone-book",
+  "version": "0.1.0",
+  "description": "Phonebook with Tedious",
+  "main": "server.js",
+  "author": {
+    "name": "rahul rai"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "tedious": "^1.14.0",
+    "vash": "^0.12.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
