@@ -1,9 +1,9 @@
 ﻿(function (database) {
     var Connection = require("tedious").Connection;
     var config = {
-        userName: "rahulrai",
-        password: "Sql@1234",
-        server: "nodephonebook.database.windows.net",
+        userName: "USERNAME",
+        password: "PASSWORD",
+        server: "SQLSERVERNAME.database.windows.net",
         options: {
             database: "phonebook",
             encrypt: true,
